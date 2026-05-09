@@ -15,5 +15,6 @@ The JSON data consists of flight logs simulated from Mockaroo (https://www.mocka
 3. Activate the virtual environment ```source your_virtual_env_name/bin/activate``` in Mac or ```.\.venv\Scripts\Activate.ps1`` for PowerShell in Windows
 4. Install the requests and the pandas library in your activated environment ```pip install requests pandas```
 5. At the root, Run the ```main.py``` file, like ```python3 main.py```.
-6. The program runs and extracts data from the specified url and converts it into a csv. Modify the path if you want it in a different location.
+6. Enter the url to extract data from.
+7. The program runs and extracts data from the specified url and converts it into a csv. Modify the path if you want it in a different location.
 
