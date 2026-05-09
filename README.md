@@ -11,8 +11,8 @@ The JSON data consists of flight logs simulated from Mockaroo (https://www.mocka
 
 ### Steps for Data Conversion
 1. Clone the repository and download it to you local folder
-2. Create a virtual environment in the root directory ```python3 venv your_virtual_env_name``
-3. Activate the virtual environment ```source your_virtual_env_name/bin/activate``` in Mac or ```.\.venv\Scripts\Activate.ps1`` for PowerShell in Windows
+2. Create a virtual environment in the root directory ```python3 venv your_virtual_env_name```
+3. Activate the virtual environment ```source your_virtual_env_name/bin/activate``` in Mac or ```.\.venv\Scripts\Activate.ps1``` for PowerShell in Windows
 4. Install the requests and the pandas library in your activated environment ```pip install requests pandas```
 5. At the root, Run the ```main.py``` file, like ```python3 main.py```.
 6. Enter the url to extract data from.
