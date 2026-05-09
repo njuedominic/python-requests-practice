@@ -3,7 +3,7 @@ import os
 import pandas as pd
 import requests
 
-# Create a function that takes in the url with the jsoin data and returns a converted csv file
+# Create a function that takes in the url with the json data and returns a converted csv file
 
 def json_to_csv(url):
     # 1. Fetch the data
