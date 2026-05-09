@@ -1,9 +1,13 @@
 ### Python Requests Library
 Requests is a python library for sending HTTP request. (https://requests.readthedocs.io/en/latest/)
-This projects follows simple steps to use the requests library to get a JSON data from a url and save it as a csv for downstream analysis. 
+This projects follows simple steps to use the requests library to get a JSON data in any format from a url, convert it into a dataframe using pandas and save it as a csv for downstream analysis.
 
 ### The Data
-The data is airline data, consisting of flight logs simulated from Mockaroo (https://www.mockaroo.com/)
+The JSON data consists of flight logs simulated from Mockaroo (https://www.mockaroo.com/), and two dummy datasets from https://dummyjson.com/carts and https://dummyjson.com/products. The carts dataset has a nested structure which presents an interesting challenge.
+
+### Libraries
+* Pandas
+* Requests
 
 ### Steps for Data Conversion
 1. Clone the repository and download it to you local folder
@@ -12,3 +16,4 @@ The data is airline data, consisting of flight logs simulated from Mockaroo (htt
 4. Install the requests and the pandas library in your activated environment ```pip install requests pandas```
 5. At the root, Run the ```main.py``` file, like ```python3 main.py```.
 6. The program runs and extracts data from the specified url and converts it into a csv. Modify the path if you want it in a different location.
+
